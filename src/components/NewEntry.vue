@@ -1,11 +1,13 @@
 <template>
+  <div class="mt-10">
   <h1 class="mt-5"> {{ this.warning }}
 </h1>
-  <div class="block">
+  <div class="block ">
     <v-textarea label="Liebes Tagebuch..." letiant="solo-filled"  auto-grow v-model="entry.entry"></v-textarea>
     <v-btn @click="createEntry()">
       {{this.bttext}}
     </v-btn>
+  </div>
   </div>
   
 </template>
@@ -113,7 +115,7 @@ export default {
       let todaysDate = this.getTodaysDate();
       for (let i = 0; i < this.data.length; i++) {
         if (this.data[i].date == todaysDate) {
-          this.bttext = "update"
+          this.bttext = "Aktualisieren"
           this.id = this.data[i].id
           this.entryExists= true
           this.warning = "Eintrag für den heutigen Tag existiert bereits! Der bestehende Eintrag wird überschrieben!"

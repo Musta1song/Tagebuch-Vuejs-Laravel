@@ -14,7 +14,7 @@
               <v-card-text>
                 {{ entry.entry }} </v-card-text>
               <v-card-actions>
-                <v-btn color="primary" block @click="dialog = false">Eintrag schließen</v-btn>
+                <v-btn color="primary" block @click="dialog = false">Schließen</v-btn>
               </v-card-actions>
             </v-card>
           </v-dialog>
