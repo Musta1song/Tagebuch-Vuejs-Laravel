@@ -67,10 +67,7 @@ export default {
         .catch(e => {
           console.log(e);
         });
-      setTimeout(this.reload, 500
-
-      )
-
+      setTimeout(this.reload, 500)
     },
     reload() {
       window.location.reload()
