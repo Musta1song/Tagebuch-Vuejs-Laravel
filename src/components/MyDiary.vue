@@ -12,6 +12,7 @@
           <v-dialog v-model="dialog" activator="parent" width="auto">
             <v-card>
               <v-card-text>
+                Liebes Tagebuch,<br>
                 {{ entry.entry }} </v-card-text>
               <v-card-actions>
                 <v-btn color="primary" block @click="dialog = false">Schließen</v-btn>

@@ -3,7 +3,7 @@
     <h1 class="mt-5"> {{ this.warning }}
     </h1>
     <div class="block ">
-      <v-textarea label="Liebes Tagebuch..." letiant="solo-filled" auto-grow v-model="entry.entry"></v-textarea>
+      <v-textarea label="Liebes Tagebuch," letiant="solo-filled" auto-grow v-model="entry.entry"></v-textarea>
       <v-btn @click="createEntry()">
         {{ this.bttext }}
       </v-btn>
