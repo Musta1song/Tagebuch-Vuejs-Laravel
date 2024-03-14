@@ -103,8 +103,10 @@ export default {
 }
 
 .DelBt {
-  background-color: lightcoral;
+  background-color:  rgb(255, 157, 157);
 }
+.DelBt:hover{
+  background-color:lightcoral }
 
 .v-btn {
   min-width: 0;

@@ -27,6 +27,11 @@ h1 {
   margin-left: 70.5%;
   margin-top: 20px;
 
+
+}
+.v-btn:hover{
+  color: cornflowerblue;
+
 }
 
 div {

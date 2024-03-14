@@ -21,4 +21,7 @@ export default {
 .navbar{
   background-color: rgb(54, 167, 238);
 }
+a:hover{
+color: aquamarine;
+}
 </style>
